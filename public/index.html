@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header id="home" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <h3 style="font-size: bold;">Yangy</h3>
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">about me</a>
+              </li>
+              <li>
+                <a href="#skills" class="scroll-link">skills</a>
+              </li>
+              <li>
+                <a href="#projects" class="scroll-link">projects</a>
+              </li>
+              <li>
+                <a href="#blogs" class="scroll-link">blogs</a>
+              </li>
+              <li>
+                <a href="#contact" class="scroll-link">contact me</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="divide">
+          <div class="container">
+            <h1>Hi, I am Feranmi Emmanuel, <span style="color: #702963">A Front-end developer.</span></h1>
+            <p>
+              I am a front-end developer and technical writer, who loves to design and develop user-centric websites and web apps, 
+              that will provide users with a delightful experience. I work with figma, HTML, CSS, JavaScript, ReactJS, TailwindCSS.
+            </p>
+          </div>
+          <div class="image">
+              <div class="circle"><img src="/assets/port.png" alt="person" id="port"/></div>
+              
+          </div>
+        </div>
+        
+      </div>
+    </header>
+    <!-- about -->
+    <section id="about"  data-aos="flip-up" data-aos-duration="2000" data-aos-once="true">
+      <div class="title">
+        <h2>about <span>me</span></h2>
+      </div>
+      <div class="about">
+        <p style="color: white">I am Feranmi Emmanuel, a man of many talents from Nigeria. 
+          I am a frontend developer, technical writer and I also dabble in UI/UX design. I am currently studying civil engineering at Obafemi Awolowo University in Nigeria. Despite my academic endeavours, I am actively looking for internships to gain some real life experiences. 
+          I love the tech ecosysytem because it gives me a platform to make an impact
+        in the society. I work with HTML, CSS, JavaScript, ReactJS, TailwindCSS and I have built projects, which I have published on <span><a href="https://github.com/oofeyang22" target="black" style="color: black">Github</a></span>. I wish to be part of a company, that can offer me the platform to become a world-class front-end developer.</p>
+      </div>
+    </section>
+    <!-- services -->
+    <section id="skills" data-aos="fade-left" data-aos-once="true">
+      <div class="title">
+        <h2>my <span>skills</span></h2>
+      </div>
+      <div class="skill-box">
+        <div id="figma">
+          <div><img src="/assets/figma (1).png" alt="messenger" class="figma"/></div>
+        </div>
+        <div id="html">
+          <div><img src="/assets/html.png" alt="messenger" class="html"/></div>
+        </div>
+        <div id="css">
+          <img src="/assets/css-3.png" alt="pad" class="css"/>
+        </div>
+        <div id="js">
+          <img src="/assets/js.png" alt="tv" class="js"/>
+        </div>
+        <div id="react">
+          <img src="/assets/physics.png" alt="messenger" class="react"/>
+        </div>
+        <div id="tailwind">
+          <img src="/assets/download (1).png" alt="pad" class="tailwind">
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <section id="projects" data-aos="fade-right" data-aos-duration="3000" data-aos-once="true">
+      <div class="title">
+        <h2>my <span>projects</span></h2>
+      </div>
+      <div class="project">
+        <div class="container1">
+          <img src="/assets/quote.jpg" alt="pic"/>
+          <div class="quote">
+            <h3 style="color: #301934">React quote generator</h3>
+            <p style="color: black;" class="qu">This is a coding project, whereby I created a quote generator, 
+              which is able to generate quotes of famous people in history. It was built using ReactJS and an open source API.
+            <p class="repo"><a href="https://github.com/oofeyang22/React-Quote-Generator" target="blank">This links to the github repo</a></p>
+          </div>
+
+        </div>
+        <div class="container2">
+          <img src="/assets/image.jpg" alt="converter"/>
+          <div class="quote">
+            <h3 style="color: #301934;">Image Converter</h3>
+            <p style="color: black;" class="qu">This is a project, which I built using HTML, CSS, JavaScript. 
+              It is an image converter, which can convert any image into png,
+              jpg, pdf, webp.
+            </p>
+            <p class="repo"><a href="https://github.com/oofeyang22/Image-Converter" target="blank">This links to the github repo</a></p>
+          </div>
+        </div>
+        <div class="container3">
+          <img src="/assets/editor.jpg" alt="image" />
+          <div class="quote">
+            <h3 style="color: #702963;">Image Editor</h3>
+            <p style="color: black;" class="qu">This is a project, which I built using HTML, CSS, JavaScript. 
+              It is an image editor, which can edit any image and allow different filters to be applied to it.
+              
+            </p>
+            <p class="repo"><a href="https://github.com/oofeyang22/Image-editor" target="blank">This links to the github repo</a></p>
+          </div>
+        </div>
+        <div class="container4">
+          <img src="/assets/phone.jpg" alt="image" />
+          <div class="quote">
+            <h3 style="color: #702963;">Phone Number Validator</h3>
+            <p style="color: black;" class="qu">This is a project, which I built using HTML, CSS, JavaScript. 
+              It is able to validate any number in the world and it will give some basic info based on the number provided.
+            </p>
+            <p class="repo"><a href="https://github.com/oofeyang22/Phone-Number-Validator" target="blank">This links to the github repo</a></p>
+          </div>
+        </div>
+        <div class="container5">
+          <img src="/assets/guess.jpg" alt="image" />
+          <div class="quote">
+            <h3 style="color: #702963;">Guessing Game</h3>
+            <p style="color: black;" class="qu">This is a guessing game, which I built using HTML, CSS, JavaScript. In this game, you are giving hints to guess a certain word.
+              A timer was added to the game, in a bid to add some thrill to it.
+            </p>
+            <p class="repo"><a href="https://github.com/oofeyang22/Guess-game" target="blank">This links to the github repo</a></p>
+          </div>
+        </div>
+      </div>
+    
+
+    </section>
+    <section id="blogs" data-aos="flip-up" data-aos-once="true">
+      <div class="title">
+        <h2>my <span>blogs</span></h2>
+      </div>
+      <div class="target">
+        <div class="article1">
+          <img src="/assets/custom.jpg" alt="custom hook"/>
+          <div class="article">
+            <h3 style="color: #702963;">How to Create a React Custom Hook</h3>
+            <p style="color: black;" class="art">This is an article that I published on Hashnode. 
+              It explores the concept of custom hooks in React and the skillset required to create a custom hook.
+            </p>
+          </div>
+        </div>
+        <div class="article2">
+          <img src="/assets/Dictionary.jpg" alt="python dictionary"/>
+          <div class="article">
+            <h3 style="color: #702963;">Python dictionaries</h3>
+            <p style="color: black;" class="art">This is an article that I published on Hashnode. 
+                This is a comprehensive guide to dictionaries in  Python, that covers all the important concepts of Python Dictionaries.
+            </p>
+          </div>
+        </div>
+        <div class="article3">
+          <img src="/assets/optimization.jpg" alt="cost optimization"/>
+          <div class="article">
+            <h3 style="color: #702963;">Cost Optimization In Software Engineering</h3><br/>
+            <p style="color: black;" class="art">This is an article that I published on Medium. 
+                It explores the concept of IT Cost optimization and how to implement it in a bid to maximize profit.
+            </p>
+          </div>
+        </div>
+        <div class="article4">
+          <img src="/assets/addiction.jpg" alt="addiction"/>
+          <div class="article">
+            <h3 style="color: #702963;">The Unspoken Addiction</h3>
+            <p style="color: black;" class="art">This is an article that I published on Medium. 
+                It is an opinion piece, which is about phone addiction and how it's negatively impacting people's lives.
+            </p>
+          </div>
+        </div>
+        <div class="article5">
+          <img src="/assets/cybersecurity.jpg" alt="cybersecurity"/>
+          <div class="article">
+            <h3 style="color: #702963;">What is Cybersecurity?</h3>
+            <p style="color: black;" class="art">This is an article that I published on Medium. 
+                It is an introductory article to the field of cybersecurity, which will enlighten you about the importance of cybersecurity in the tech ecosystem.
+            </p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <section id="contact" data-aos="flip-down" data-aos-once="true">
+      <div class="title">
+        <h2>contact <span>me</span></h2>
+      </div>
+      <div class="split">
+        <div class="pitch">
+          <div><h3>If you want to reach me, you can do that through the different channels listed below</h3></div>
+          <div class="info" >
+            <p >Location: Nigeria</p>
+            <p >Email: olaitanferanmi41@gmail.com</p>
+            <p>Mobile number: +2349064813638</p>
+          </div>
+          <div class="social">
+            <a href="https://twitter.com/olaitan_feranmi" target="blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://github.com/oofeyang22" target="blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/emmanuel-feranmi-6a6a00279/" target="blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.behance.net/olaitanferanmi1" target="blank"><i class="fa-brands fa-square-behance"></i></a>
+          </div>
+        </div>
+        <div class="message">
+          <form id="contact-form">
+            <div>
+              <label for="name">Name</label>
+              <input type="name" id="name"/>
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email"/>
+            </div>
+            <div>
+              <label for="Subject">Subject</label>
+              <input type="text" id="subject"/>
+            </div>
+            <div>
+              <label for="email">Message</label>
+              <textarea id="message" value="message" placeholder="Enter a message"></textarea>
+            </div>
+            <div>
+              <input type="submit" value="Send Message" id="submit"/> 
+            </div>
+            
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+  
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>
+
