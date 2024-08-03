@@ -138,11 +138,20 @@ contactForm.addEventListener('submit', (e) =>{
   xhr.send(JSON.stringify(formData));
 })
 
-const projectArray=['https://react-quote-generator-gilt.vercel.app/',
+/*const projectArray=['https://react-quote-generator-gilt.vercel.app/',
 'https://image-converter-tau.vercel.app/',
 'https://image-editor-sand.vercel.app/',
  'https://phone-number-validator-seven.vercel.app/', 
- 'https://guess-game-nu.vercel.app/'];
+ 'https://guess-game-nu.vercel.app/'];*/
+ 
+ const projectArray=[
+  "https://world-wunda.vercel.app/",
+  "https://yangyfurniture.netlify.app/",
+  "https://edtech-landing-page-khaki.vercel.app/",
+  "https://business-dashboard-jet.vercel.app/",
+  "https://react-quote-generator-gilt.vercel.app/"
+
+ ]
 
 const articleArray=['https://olaitanferanmi.hashnode.dev/how-to-create-a-react-custom-hook',
  'https://olaitanferanmi.hashnode.dev/python-dictionaries',
