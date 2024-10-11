@@ -537,51 +537,34 @@ nav {
   cursor: pointer;
 }
 .container3 img:hover{
-  transform: scale(1.1) translateY(-10%);
-  margin-bottom: 10px;
-  z-index: 1;
+
   cursor: pointer;
 }
 .container4 img:hover{
-  transform: scale(1.1) translateY(-10%);
-  margin-bottom: 10px;
-  z-index: 1;
   cursor: pointer;
 }
 .container5 img:hover{
-  transform: scale(1.1) translateY(-10%);
-  margin-bottom: 10px;
-  z-index: 1;
+
   cursor: pointer;
 }
 .article1 img:hover{
-  transform: scale(1.1) translateY(-10%);
-  margin-bottom: 10px;
-  z-index: 1;
+
   cursor: pointer;
 }
 .article2 img:hover{
-  transform: scale(1.1) translateY(-10%);
-  margin-bottom: 10px;
-  z-index: 1;
+
   cursor: pointer;
 }
 .article3 img:hover{
-  transform: scale(1.1) translateY(-10%);
-  margin-bottom: 10px;
-  z-index: 1;
+
   cursor: pointer;
 }
 .article4 img:hover{
-  transform: scale(1.1) translateY(-10%);
-  margin-bottom: 10px;
-  z-index: 1;
+
   cursor: pointer;
 }
 .article5 img:hover{
-  transform: scale(1.1) translateY(-10%);
-  margin-bottom: 10px;
-  z-index: 1;
+
   cursor: pointer;
 }
 
