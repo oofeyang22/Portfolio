@@ -43,7 +43,7 @@ const Navigation = () => {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle navigation"
           >
-            <i className="fas fa-bars"></i>
+            <i className={`fas ${isMenuOpen ? 'fa-times' : 'fa-bars'}`}></i>
           </button>
           <div className={`nav-links ${isMenuOpen ? 'show' : ''}`}>
             {navLinks.map((link) => (
