@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react'
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isFixed, setIsFixed] = useState(false)
-  const [hoveredItem, setHoveredItem] = useState<string | null>(null);
+
   useEffect(() => {
     const handleScroll = () => {
       setIsFixed(window.scrollY > 100)
@@ -49,14 +49,8 @@ const Navigation = () => {
             {navLinks.map((link) => (
               <div
                 key={link.label}
-                //href={link.href}
                 onClick={() => scrollToSection(link.href)}
                 className="nav-link"
-                /*className={`nav-link ${
-              (hoveredItem === null) || hoveredItem === link.href
-                ? `active`
-                : ''
-            }`}*/
               >
                 {link.label}
               </div>
