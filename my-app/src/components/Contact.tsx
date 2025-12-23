@@ -71,7 +71,7 @@ const Contact = () => {
             <div className="contact-details">
               <p>Location: Nigeria</p>
               <p>Email: olaitanferanmi41@gmail.com</p>
-              <p>Mobile number: +2349064813638</p>
+              <p>Mobile number: +2348107726872</p>
             </div>
             <div className="social-links">
               {socialLinks.map((social, index) => (
