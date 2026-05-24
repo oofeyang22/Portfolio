@@ -12,36 +12,57 @@ interface Project {
 
 const Projects = () => {
   const projects: Project[] = [
-    {
+      {
       id: 0,
+      title: 'Easyshop',
+      description: 'This is an e-commerce website built using Vite for the interface. The backend was built using MongoDB, Express.js, and Node,JS',
+      image: '/assets/shop.png',
+      githubUrl: 'https://github.com/oofeyang22/luxurystore'
+    },
+    {
+      id: 1,
+      title: 'Yangymin',
+      description: 'This is a dashboard built entirely using Shadcn components. It contains area charts, line charts, bar charts, and pie charts, which show different info.',
+      image: '/assets/shadcn.png',
+      githubUrl: 'https://github.com/oofeyang22/Yangymin'
+    },
+    {
+      id: 2,
+      title: 'Textify',
+      description: 'This is a fullstack website using NextJS, Auth.js, and MongoDB. There is user authentication, blog functionality, and an admin panel.',
+      image: '/assets/textify.png',
+      githubUrl: 'https://github.com/oofeyang22/Textify'
+    },
+    {
+      id: 3,
+      title: 'Sella',
+      description: 'This is an admin dashboard for an e-commerce business using NextJS. For login, Username-Harry, password-1234',
+      image: '/assets/sella.png',
+      githubUrl: 'https://github.com/oofeyang22/Sella'
+    },
+    {
+      id: 4,
       title: 'Worldwunda',
       description: 'This is a coding project, whereby I created a visually appealing tourist website, which shows some of the best tourist sites across the world. It was built using ReactJS and Hygraph CMS.',
       image: '/assets/worldwunda.jpg',
       githubUrl: 'https://github.com/oofeyang22/WorldWunda'
     },
     {
-      id: 1,
+      id: 5,
       title: 'Furniture Landing Page',
       description: 'This is a project, which I built using ReactJS and Tailwind CSS. It is based on a fictitious company that specializes in selling luxurious furniture.',
       image: '/assets/yangy.jpg',
       githubUrl: 'https://github.com/oofeyang22/Furniture-Website'
     },
     {
-      id: 2,
+      id: 6,
       title: 'Edtech Landing Page',
       description: 'This is a project, which I built using ReactJS and TailwindCSS. It is built for a fictitious startup named Tekamp, that provides courses for those interested in tech.',
       image: '/assets/tekamp.jpg',
       githubUrl: 'https://github.com/oofeyang22/Edtech-Landing-Page'
     },
     {
-      id: 3,
-      title: 'Business Dashboard',
-      description: 'This is an analytical dashboard I built using ReactJS and a couple of third-party libraries. The dashboard is built for a fictitious fintech company named Moneycrypt.',
-      image: '/assets/moneycrypt.jpg',
-      githubUrl: 'https://github.com/oofeyang22/Business-Dashboard'
-    },
-    {
-      id: 4,
+      id: 7,
       title: 'Home Master',
       description: 'This is a landing page, which I built for a cleaning services company. I used Next.js framework and TypeScript for the project.',
       image: '/assets/homemaster.png',
