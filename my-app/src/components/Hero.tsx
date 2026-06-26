@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section 
       id="home" 
-      className="hero" 
+      className="hero black-bg" 
       data-aos="fade-down" 
       data-aos-duration="1000" 
       data-aos-once="true"
@@ -15,12 +15,12 @@ const Hero = () => {
         <div className="hero-content">
           <div className="hero-text">
             <h1>
-              Hi, I am Feranmi Emmanuel, <span className="highlight">A Front-end developer.</span>
+              Hi, I am Feranmi Emmanuel, <span className="highlight">A Design Engineer.</span>
             </h1>
             <p>
-              I am a front-end developer and technical writer, who loves to design and develop 
+              I am a web developer and UI/UX Designer, who loves to design and develop 
               user-centric websites and web apps, that will provide users with a delightful experience. 
-              I work with figma, HTML, CSS, JavaScript, ReactJS, TailwindCSS.
+              I work with figma, ReactJS, TailwindCSS, and NextJS.
             </p>
           </div>
           <div className="hero-image">

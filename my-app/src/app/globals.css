@@ -213,7 +213,10 @@ nav {
   background: var(--primary-gradient);
   color: var(--white);
 }
-
+.black-bg {
+  background: var(--black);
+  color: var(--white);
+}
 .section-title {
   text-align: center;
   margin-bottom: 3rem;
@@ -422,6 +425,7 @@ nav {
   transform: translateY(20px);
   transition: var(--transition);
   z-index: 1000;
+  cursor: pointer;
 }
 
 .top-link.show {

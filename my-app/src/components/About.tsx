@@ -15,23 +15,21 @@ const About = () => {
         </div>
         <div className="text-center">
           <p>
-            I am Feranmi Emmanuel, a man of many talents from Nigeria. I am a frontend developer, 
-            technical writer and I also dabble in UI/UX design. I am available for freelance gigs 
-            and entry level roles. I love the tech ecosystem because it gives me a platform to make 
-            an impact in the society. I work with HTML, CSS, JavaScript, ReactJS, TailwindCSS and 
+            I am Feranmi Emmanuel, a man of many talents from Nigeria. I am a proficient web developer 
+            and a solid UI/UX designer. I am available for freelance gigs and full-time roles. I am proficient in ReactJS, Tailwind CSS, NextJS, and Typescript. I also have solid knowledge of NodeJS, ExpressJS, and MongoDB.
             I have built projects, which I have published on{' '}
             <a 
               href="https://github.com/oofeyang22" 
               target="_blank" 
               rel="noopener noreferrer"
-              style={{ color: '#fff', textDecoration: 'underline' }}
+              style={{ color: '#fff', textDecoration: 'none' }}
             >
               Github
             </a>
-            . Apart from being a frontend developer, I am also a capable UI/UX designer, who can 
+             . I am also a capable UI/UX designer, who can 
             recognize user pain points and develop innovative solutions to improve their overall 
             user experience. I am skilled with industry-standard design tools like Figma, which 
-            allow me to bring my ideas to life.
+            I use to bring my ideas to life.
           </p>
         </div>
       </div>

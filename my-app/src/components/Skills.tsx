@@ -22,7 +22,7 @@ const Skills = () => {
   return (
     <section 
       id="skills" 
-      className="section" 
+      className="section black-bg" 
       data-aos="fade-left" 
       data-aos-once="true"
     >
