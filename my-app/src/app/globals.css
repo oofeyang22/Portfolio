@@ -447,13 +447,13 @@ nav {
 
   .nav-links {
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 0;
     right: 0;
     background: var(--white);
     flex-direction: column;
     padding: 1rem;
-    box-shadow: var(--shadow);
+    box-shadow: none;
     max-height: 0;
     overflow: hidden;
     transition: var(--transition);
@@ -464,6 +464,10 @@ nav {
   }
   .nav-link{
     margin-top: 1rem;
+  }
+  .nav-link:hover{
+    padding: 0.3rem;
+    width: 100px;
   }
 
   .hero-content {

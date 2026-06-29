@@ -52,7 +52,7 @@ const Projects = () => {
     {
       id: 5,
       title: 'Sella',
-      description: 'This is an admin dashboard for an e-commerce business using NextJS. For login, Username-Harry, password-1234',
+      description: 'This is an admin dashboard for an e-commerce business using NextJS. Not buit for mobile. For login, Username-Harry, password-1234',
       image: '/assets/sella.png',
       projectUrl: 'https://sella-self.vercel.app/'
     },
